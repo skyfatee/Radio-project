@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+    margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title_big {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title_colored {
+    color: rgb(249, 191, 59);
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    min-width: 315px;
+    min-height: 72px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-radius: 4px;
+    background: linear-gradient(0.00deg, rgb(255, 77, 0), rgb(254, 176, 93) 100%);
+
+    color: rgb(255, 255, 255);
+    text-shadow: 0px -1px 0px black;
+
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+
+
+.promo {
+    /* min-height: 800px; */
+    background: url('../../img/Main\ bg.jpg') center center / cover no-repeat;
+    padding: 22px 0px 53px 0px;
+}
+
+.logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_text {
+    margin-top: 13px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.promo h1 {
+    margin-top: 52px;
+}
+
+.promo h2 {
+    margin-top: 12px;
+}
+
+.promo .btn {
+    margin-top: 75px;
+}
+
+.promo_text {
+    color: white;
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.promo_text span {
+    color: rgb(249, 191, 59);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.promo_more-text {
+    margin-top: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo_more-img {
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.intensive {
+    background-color: rgb(239, 239, 239);
+    padding: 80px 0;
+}
+
+.intensive_title {
+    color: rgb(37, 37, 37);
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.divider {
+    margin: 14px auto 0 auto;
+    width: 220px;
+    height: 7px;
+    background-color: rgb(249, 191, 59);
+}
+
+.intensive_subtitle {
+    color: rgb(74, 74, 74);
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.intensive_wrapper {
+    display: flex;
+    margin-top: 42px;
+    justify-content: space-between;
+}
+
+.intensive_item {
+    width: 360px;
+}
+
+.intensive_img {
+    width: 100%;
+}
+
+.intesive_descr {
+    margin-top: 15px;
+    color: rgb(74, 74, 74);
+    font-size: 16px;
+    text-align: center;
+}
+
+.info_img {
+    top: 93px;
+    left: -83px;
+    position: absolute;
+    z-index: 1;
+}
+
+.info {
+    min-height: 564px;
+    background-color: black;
+    padding: 100px 0 140px 0;
+}
+
+.info_title {
+    /* What is online radio */
+    color: rgb(249, 191, 59);
+    font-size: 30px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.info_text {
+    position: relative;
+    margin-top: 19px;
+    margin-left: 390px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 300px;
+    text-align: right;
+    z-index: 2;
+}
+
+.info_text.medium {
+    font-weight: 600;
+}
+
+.skills {
+    background: url('../../img/Online\ bg.jpg') center center / cover no-repeat;
+    padding: 80px 0 102px 0;
+}
+
+.skills_title {
+    color: rgb(239, 239, 239);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skills_wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.skills_item {
+    width: 224px;
+
+}
+
+.skills_round {
+    /* Circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: rgb(249, 191, 59);
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+
+}
+
+.skills_img {
+    max-width: 60px;
+}
+
+.skills_descr {
+    text-align: center;
+    margin-top: 18px;
+    color: rgb(239, 239, 239);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.present {
+    background: rgb(239, 239, 239);
+    padding: 80px 0;
+}
+
+.present_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.present_descr {
+    color: rgb(37, 37, 37);
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn {
+    min-width: 315px;
+    min-height: 72px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-radius: 4px;
+    background: linear-gradient(0.00deg, rgb(255, 77, 0), rgb(254, 176, 93) 100%);
+
+    color: rgb(255, 255, 255);
+    text-shadow: 0px -1px 0px black;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+
+.present .btn {
+    margin-top: 60px;
+}
+
+.radio_info {
+    background: rgb(15, 11, 11);
+    display: block;
+    padding: 50px 0;
+}
+
+.online_station {
+    display: block;
+    margin: 0 auto;
+}
+
+.radio_webinar {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.radio_register {
+    color: rgb(239, 239, 239);
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.the_date {
+    color: rgb(249, 191, 59);
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer {
+    /* Footer */
+    background-color: rgb(26, 26, 26);
+    padding: 58px 0;
+}
+
+.footer_block {
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+}
